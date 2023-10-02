@@ -1,1 +1,132 @@
-[{"pregunta":"¿Cuál es el logo de 'NIKE'?","respuestaSeleccionada":null,"respuestas":["https://graffica.info/wp-content/uploads/2022/04/Sin-uiiug-1200x717.png","https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/default/dwefab2811/images/mail/logo-puma-black.png","https://cdn.icon-icons.com/icons2/3914/PNG/512/reebok_logo_icon_248669.png","https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Adidas_isologo.svg/1200px-Adidas_isologo.svg.png"],"indiceCorrecto":0,"message":"","visible":false},{"pregunta":"¿Cuál es el logo de 'Cupra'?","respuestaSeleccionada":null,"respuestas":["https://www.toyota-global.com/pages/contents/showroom/emblem/passion/images/passion_img01.jpg","https://i.pinimg.com/originals/5e/5f/0f/5e5f0f05f9703fa3db0cc93b5d2c8578.png","https://www.recambiosoriginal.com/server/Portal_0011062/img/products/logo-rejilla-delantera-cupra_9340748.jpg","https://thumb.eurobikes.com/image/Logo-BMW-3d-58mm.jpg"],"indiceCorrecto":2,"message":"","visible":false},{"pregunta":"¿Cuál es el logo de 'Apple'?","respuestaSeleccionada":null,"respuestas":["https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg","https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/360_197_1.png?$FB_TYPE_B_PNG$","https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Xiaomi_logo.svg/2048px-Xiaomi_logo.svg.png","https://cdn.icon-icons.com/icons2/2699/PNG/512/huawei_logo_icon_169026.png"],"indiceCorrecto":0,"message":"","visible":false},{"pregunta":"¿Cuál es el logo de 'Google'?","respuestaSeleccionada":null,"respuestas":["https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Firefox_logo%2C_2017.svg/1200px-Firefox_logo%2C_2017.svg.png","https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png","https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Internet_Explorer_4_and_5_logo.svg/1200px-Internet_Explorer_4_and_5_logo.svg.png","https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Safari_browser_logo.svg/1028px-Safari_browser_logo.svg.png"],"indiceCorrecto":1,"message":"","visible":false},{"pregunta":"¿Cuál es el logo de 'Microsoft'?","respuestaSeleccionada":null,"respuestas":["https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/TuxFlat.svg/149px-TuxFlat.svg.png","https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1200px-Microsoft_logo.svg.png","https://cdn.freebiesupply.com/logos/large/2x/microsoft-3-logo-png-transparent.png","https://cdn.freebiesupply.com/logos/large/2x/unix-logo-png-transparent.png"],"indiceCorrecto":2,"message":"","visible":false},{"pregunta":"¿Cuál es el logo de 'Amazon'?","respuestaSeleccionada":null,"respuestas":["https://companieslogo.com/img/orig/AMZN-e9f942e4.png?t=1632523695","https://elbrayan507.github.io/Shein/assets/img/new_logo.png","https://companieslogo.com/img/orig/ZAL.DE-38291d55.png?t=1648046036","https://brandemia.org/sites/default/files/inline/images/portada_correos_2.jpg"],"indiceCorrecto":0,"message":"","visible":false},{"pregunta":"¿Cuál es el logo de 'Facebook'?","respuestaSeleccionada":null,"respuestas":["https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png","https://logolook.net/wp-content/uploads/2021/06/Symbol-Tiktok.png","https://static.vecteezy.com/system/resources/previews/023/986/555/original/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png","https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-6.png"],"indiceCorrecto":0,"message":"","visible":false},{"pregunta":"¿Cuál es el logo de 'Tinder'?","respuestaSeleccionada":null,"respuestas":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-yxBbN6MztVz1vm2jzyVesv_rXIN8pUzcCt7PhFDjtH7LEC3jp_OhxiHGfCuXr18mKE&usqp=CAU","https://tinder.com/static/tinder.png","https://upload.wikimedia.org/wikipedia/commons/1/10/Meetup.png","https://www.iberianpress.es/wp-content/uploads/2022/11/CLIVI-LOGO.png"],"indiceCorrecto":1,"message":"","visible":false}]
+[
+  {
+    "pregunta": "¿Cuál es el logo de 'NIKE'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://graffica.info/wp-content/uploads/2022/04/Sin-uiiug-1200x717.png",
+      "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/default/dwefab2811/images/mail/logo-puma-black.png",
+      "https://cdn.icon-icons.com/icons2/3914/PNG/512/reebok_logo_icon_248669.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Adidas_isologo.svg/1200px-Adidas_isologo.svg.png"
+    ],
+    "indiceCorrecto": 0,
+    "message": "",
+    "visible": false
+  },
+  {
+    "pregunta": "¿Cuál es el logo de 'Cupra'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://www.toyota-global.com/pages/contents/showroom/emblem/passion/images/passion_img01.jpg",
+      "https://i.pinimg.com/originals/5e/5f/0f/5e5f0f05f9703fa3db0cc93b5d2c8578.png",
+      "https://www.recambiosoriginal.com/server/Portal_0011062/img/products/logo-rejilla-delantera-cupra_9340748.jpg",
+      "https://thumb.eurobikes.com/image/Logo-BMW-3d-58mm.jpg"
+    ],
+    "indiceCorrecto": 2,
+    "message": "",
+    "visible": false
+  },
+  {
+    "pregunta": "¿Cuál es el logo de 'Apple'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+      "https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/360_197_1.png?$FB_TYPE_B_PNG$",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Xiaomi_logo.svg/2048px-Xiaomi_logo.svg.png",
+      "https://cdn.icon-icons.com/icons2/2699/PNG/512/huawei_logo_icon_169026.png"
+    ],
+    "indiceCorrecto": 0,
+    "message": "",
+    "visible": false
+  },
+  {
+    "pregunta": "¿Cuál es el logo de 'Google'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Firefox_logo%2C_2017.svg/1200px-Firefox_logo%2C_2017.svg.png",
+      "https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Internet_Explorer_4_and_5_logo.svg/1200px-Internet_Explorer_4_and_5_logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Safari_browser_logo.svg/1028px-Safari_browser_logo.svg.png"
+    ],
+    "indiceCorrecto": 1,
+    "message": "",
+    "visible": false
+  },
+  {
+    "pregunta": "¿Cuál es el logo de 'Microsoft'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/TuxFlat.svg/149px-TuxFlat.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1200px-Microsoft_logo.svg.png",
+      "https://cdn.freebiesupply.com/logos/large/2x/microsoft-3-logo-png-transparent.png",
+      "https://cdn.freebiesupply.com/logos/large/2x/unix-logo-png-transparent.png"
+    ],
+    "indiceCorrecto": 2,
+    "message": "",
+    "visible": false
+  },
+  {
+    "pregunta": "¿Cuál es el logo de 'Amazon'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://companieslogo.com/img/orig/AMZN-e9f942e4.png?t=1632523695",
+      "https://elbrayan507.github.io/Shein/assets/img/new_logo.png",
+      "https://companieslogo.com/img/orig/ZAL.DE-38291d55.png?t=1648046036",
+      "https://brandemia.org/sites/default/files/inline/images/portada_correos_2.jpg"
+    ],
+    "indiceCorrecto": 0,
+    "message": "",
+    "visible": false
+  },
+  {
+    "pregunta": "¿Cuál es el logo de 'Facebook'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png",
+      "https://logolook.net/wp-content/uploads/2021/06/Symbol-Tiktok.png",
+      "https://static.vecteezy.com/system/resources/previews/023/986/555/original/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png",
+      "https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-6.png"
+    ],
+    "indiceCorrecto": 0,
+    "message": "",
+    "visible": false
+  },
+  {
+    "pregunta": "¿Cuál es el logo de 'Tinder'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-yxBbN6MztVz1vm2jzyVesv_rXIN8pUzcCt7PhFDjtH7LEC3jp_OhxiHGfCuXr18mKE&usqp=CAU",
+      "https://tinder.com/static/tinder.png",
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/Meetup.png",
+      "https://www.iberianpress.es/wp-content/uploads/2022/11/CLIVI-LOGO.png"
+    ],
+    "indiceCorrecto": 1,
+    "message": "",
+    "visible": false
+  },
+  {
+    "pregunta": "¿Cuál es el logo de 'Netflix'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/2560px-Disney%2B_logo.svg.png",
+      "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456",
+      "https://inhoangha.com/uploads/logo-starbucks.jpg"
+    ],
+    "indiceCorrecto": 2,
+    "message": "",
+    "visible": false
+  },
+  {
+    "pregunta": "¿Cuál es el logo de 'Travelperk'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://play-lh.googleusercontent.com/iJVHD99zv_TfjVAvQkUDtC959mLCxN5w4HUKykGg5MywUo2HuJ7CZXmK1I0GwM6I6w=w300",
+      "https://companieslogo.com/img/orig/TRVG-3d005e84.png?t=1677244638",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Expedia_Icon_2022.svg/2048px-Expedia_Icon_2022.svg.png",
+      "https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/oen5y8x57bsgxknbue6i"
+    ],
+    "indiceCorrecto": 3,
+    "message": "",
+    "visible": false
+  }
+]

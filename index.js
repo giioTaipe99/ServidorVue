@@ -91,7 +91,7 @@ app.put("/editar/:id", (req, res) => {
             const preguntas = JSON.parse(data);
             preguntas[id] = preguntaObj;
 
-            fs.writeFile(preguntasFichero, JSON.stringify(preguntas), (err) => {
+            fs.writeFile(preguntasFichero, JSON.stringify(preguntas,null,2), (err) => {
                 if (err) {
                     console.log("No se pudo modificar el fichero");
                 } 
