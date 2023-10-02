@@ -26,7 +26,7 @@ app.get("/getPreguntas", (req, res) => {
         }
         else {
             const preguntas = JSON.parse(data);
-            res.json(data);
+            res.json(preguntas);
         }
     })
 });
@@ -38,17 +38,16 @@ app.post("/postPreguntas", (req, res) => {
             console.log("No se puede leer el fichero");
         }
         else {
-            const preguntasObj = JSON.parse(data);
-            const preguntasArray = preguntasObj.preguntas;
+            const preguntas = JSON.parse(data);
 
-            preguntasArray.push(nuevaPregunta);
+            preguntas.push(nuevaPregunta);
 
-            fs.writeFile(preguntasFichero, JSON.stringify(preguntasObj), (err) => {
+            fs.writeFile(preguntasFichero, JSON.stringify(preguntas,null,2), (err) => {
                 if (err) {
                     res.status(500).json({ Error: "No se pudo escribir en el fichero." })
                 }
                 else {
-                    res.json(preguntasArray);
+                    res.json(preguntas);
                 }
             })
         }
@@ -56,7 +55,7 @@ app.post("/postPreguntas", (req, res) => {
 
 });
 
-app.delete("/:id", (req, res) => {
+app.delete("/eliminar/:id", (req, res) => {
     console.log("entre");
     const idSelected = parseInt(req.params.id);
     fs.readFile(preguntasFichero, 'UTF-8', (err, data) => {
@@ -64,22 +63,43 @@ app.delete("/:id", (req, res) => {
             console.log("No se pudo leer el fichero.");
         }
         else {
-            const preguntasObj = JSON.parse(data);
-            const preguntasArray = preguntasObj.preguntas;
-            console.log("llegue")
-            if (idSelected >= 0 && idSelected < preguntasArray.length) {
-                console.log("llegue")
-                preguntasArray.splice(idSelected, 1);
-                fs.writeFile(preguntasFichero, JSON.stringify(preguntasObj), (err) => {
+            const preguntas = JSON.parse(data);
+            if (idSelected >= 0 && idSelected < preguntas.length) {
+                preguntas.splice(idSelected, 1);
+                fs.writeFile(preguntasFichero, JSON.stringify(preguntas,null,2), (err) => {
                     if (err) {
                         console.log("No se pudo modificar el fichero");
                     } 
                     else {
-                        res.json(preguntasObj);
-                        console.log("llegue")
+                        res.json(preguntas);
+
                     }
                 })
             }
         }
     })
 });
+
+app.put("/editar/:id", (req, res) => {
+    const preguntaObj = req.body;
+    const id = req.params.id;
+    fs.readFile(preguntasFichero, 'UTF-8', (err, data) => {
+        if (err) {
+            console.log("No se pudo leer el fichero.");
+        }
+        else {
+            const preguntas = JSON.parse(data);
+            preguntas[id] = preguntaObj;
+
+            fs.writeFile(preguntasFichero, JSON.stringify(preguntas), (err) => {
+                if (err) {
+                    console.log("No se pudo modificar el fichero");
+                } 
+                else {
+                    res.json(preguntas);
+
+                }
+            })
+        }
+    })
+})
