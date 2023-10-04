@@ -32,7 +32,9 @@ app.get("/getPreguntas", (req, res) => {
 });
 
 app.post("/postPreguntas", (req, res) => {
+    console.log("Entre");
     const nuevaPregunta = req.body;
+    console("-->"+nuevaPregunta)
     fs.readFile(preguntasFichero, 'utf-8', (err, data) => {
         if (err) {
             console.log("No se puede leer el fichero");
@@ -56,7 +58,6 @@ app.post("/postPreguntas", (req, res) => {
 });
 
 app.delete("/eliminar/:id", (req, res) => {
-    console.log("entre");
     const idSelected = parseInt(req.params.id);
     fs.readFile(preguntasFichero, 'UTF-8', (err, data) => {
         if (err) {
@@ -81,8 +82,14 @@ app.delete("/eliminar/:id", (req, res) => {
 });
 
 app.put("/editar/:id", (req, res) => {
+    console.log("entre");
     const preguntaObj = req.body;
     const id = req.params.id;
+
+    console.log("-->"+preguntaObj);
+    console.log("-->"+id
+    
+    );
     fs.readFile(preguntasFichero, 'UTF-8', (err, data) => {
         if (err) {
             console.log("No se pudo leer el fichero.");
@@ -90,7 +97,6 @@ app.put("/editar/:id", (req, res) => {
         else {
             const preguntas = JSON.parse(data);
             preguntas[id] = preguntaObj;
-            console.log(preguntaObj);
             fs.writeFile(preguntasFichero, JSON.stringify(preguntas,null,2), (err) => {
                 if (err) {
                     console.log("No se pudo modificar el fichero");
