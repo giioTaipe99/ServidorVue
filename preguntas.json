@@ -1,5 +1,17 @@
 [
-  {},
+  {
+    "pregunta": "¿Cuál es el logo de 'NIKE'?",
+    "respuestaSeleccionada": null,
+    "respuestas": [
+      "https://graffica.info/wp-content/uploads/2022/04/Sin-uiiug-1200x717.png",
+      "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/default/dwefab2811/images/mail/logo-puma-black.png",
+      "https://cdn.icon-icons.com/icons2/3914/PNG/512/reebok_logo_icon_248669.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Adidas_isologo.svg/1200px-Adidas_isologo.svg.png"
+    ],
+    "indiceCorrecto": 0,
+    "message": "",
+    "visible": false
+  },
   {
     "pregunta": "¿Cuál es el logo de 'Cupra'?",
     "respuestaSeleccionada": null,
