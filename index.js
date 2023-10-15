@@ -111,9 +111,11 @@ app.put("/editar/:id", (req, res) => {
 Exercici 1: Codi que guarda la resposta contestada a cada pregunta en un fitxerPàgina
 Exercici 2: Funció que escriu en fitxers diferents en cada execucióPàgina
 Exercici 3: Crear un nou directori i comprovar si un directori o fitxer existeixPàgina
-Exercici 4 Escriure en un fitxer JSONPàgina */
+Exercici 4: Escriure en un fitxer JSONPàgina 
+Exercici 5:*/
 app.post("/almacenar", (req, res) => {
     const data = req.body;
+    const datosJSON = JSON.stringify(data, null, 2);
     const subdirectorio = "Resultados";
     const directorio = path.join(__dirname, subdirectorio);
     if (!fs.existsSync(directorio)) {
@@ -121,13 +123,13 @@ app.post("/almacenar", (req, res) => {
     }
     const fechaHoraActual = new Date();
     const formatoFechaHora = format(fechaHoraActual, 'ddMMyyyy_HHmmss');
-    const nombreArchivo = `respuestas_${formatoFechaHora}.txt`;
+    const nombreArchivo = `respuestas_${formatoFechaHora}.json`;
     const rutaArchivo = path.join(directorio, nombreArchivo);
-    fs.writeFile(rutaArchivo, JSON.stringify(data, null, 2), (err) => {
+    fs.writeFile(rutaArchivo, datosJSON,'utf8', (err) => {
         if (err) {
             console.log(err);
         } else {
-            consoles.log("Se ha escrito en el fichero");
+            console.log("Se ha escrito en el fichero");
         }
     });
 
@@ -146,11 +148,8 @@ app.post("/prueba", (req, res) => {
         fs.readdir(__dirname + "/" + dirResultados, (err, data) => {
             console.log(data);
         });
-
+       console.log("Ficheros leidos: "+dirResultados.length) 
     });
-
-
-
 });
 
 app.post("/python", (req, res) => {

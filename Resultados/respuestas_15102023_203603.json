@@ -13,7 +13,7 @@
   },
   {
     "pregunta": "¿Cuál es el logo de 'Google'?",
-    "repuesta": 1
+    "repuesta": 0
   },
   {
     "pregunta": "¿Cuál es el logo de 'Microsoft'?",
@@ -21,7 +21,7 @@
   },
   {
     "pregunta": "¿Cuál es el logo de 'Amazon'?",
-    "repuesta": 0
+    "repuesta": 2
   },
   {
     "pregunta": "¿Cuál es el logo de 'Facebook'?",
@@ -37,6 +37,6 @@
   },
   {
     "pregunta": "¿Cuál es el logo de 'Travelperk'?",
-    "repuesta": 3
+    "repuesta": 0
   }
 ]
